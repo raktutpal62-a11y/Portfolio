@@ -359,7 +359,12 @@ h2 em { font-style: italic; color: var(--gold); }
   transition: padding-left 0.3s;
   position: relative;
 }
+
 .project-item:first-child { border-top: 1px solid var(--border); }
+.project-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
 .project-item:hover { padding-left: 1rem; }
 .project-item:hover .project-arrow { color: var(--gold); transform: translateX(4px); }
 .project-index {
